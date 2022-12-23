@@ -42,6 +42,7 @@ class _DicePageState extends State<DicePage> {
       child: Row(
         children: [
           Expanded(
+            flex: 1,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextButton(
@@ -58,6 +59,7 @@ class _DicePageState extends State<DicePage> {
             ),
           ),
           Expanded(
+            flex: 1,
             child: Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextButton(
